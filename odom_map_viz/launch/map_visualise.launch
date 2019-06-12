@@ -1,0 +1,10 @@
+<launch>
+
+ <!--node pkg="rosbag" type="play" name="rosbagplay" args="$(find odom_visualizer)/bag/all.bag --><!--clock -d 5"  required="true"/--> 
+
+ <node pkg="odom_visualizer" type="plot_map_fixed.py" name="imu_and_gps_viz" output="screen">
+ 	<remap from="/odom_topic1" to="/vo_new"/>
+ 	<remap from="/odom_topic2" to="/odometry/vo_imu1_odom"/>
+ </node>
+
+</launch>
