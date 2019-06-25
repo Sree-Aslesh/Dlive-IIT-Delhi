@@ -54,7 +54,11 @@ Orb slam does not give out its pose as a message. It runs as a standalone node w
   <img width="460" height="300" src="https://github.com/Sree-Aslesh/Dlive-IIT-Delhi/blob/master/media/Screenshot%20from%202018-06-08%2010-02-38.png">
 </p>
 
+A live example of the orb slam implementation is given below
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Sree-Aslesh/Dlive-IIT-Delhi/blob/master/media/orbslam.gif">
+</p>
 
 
 
